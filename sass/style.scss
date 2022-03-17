@@ -1,0 +1,316 @@
+.wrapper{
+    width: 800px;
+    height: 400px;
+    margin: 9% auto;
+    background-color: #ECF0F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .box_1{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        border-radius: 25%;
+        overflow: hidden;
+        z-index: 1;
+        .up{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            background: url("../img/facebook.png");
+            background-size: cover;
+        }
+        .after{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        .before{
+            position: absolute;
+            top: 75%;
+            left: -100%;
+            content: '';
+            width: 130px;
+            height: 130px;
+            background-color: #3D5B99;
+            transform: skew(45deg, -30deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: 0.2s;
+            img{
+                width: 30%;
+                transform: skew(-50deg, 30deg);
+                transition-delay: 2s;
+            }
+        }
+        &:hover .before{
+            top: -10%;
+            left: -8%;
+            cursor: pointer;
+        }
+        &:hover .up{
+            background: url("../img/facebook_w.png");
+            background-size: cover;
+            transform: scale(1.1);
+        }
+       
+    }
+    .box_2{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        border-radius: 25%;
+        overflow: hidden;
+        z-index: 1;
+        .up{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            background: url("../img/twitter.png");
+            background-size: cover;
+        }
+        .after{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        .before{
+            position: absolute;
+            top: 75%;
+            left: -100%;
+            content: '';
+            width: 130px;
+            height: 130px;
+            background-color: #03A9F4;
+            transform: skew(45deg, -30deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: 0.2s;
+            img{
+                width: 30%;
+                transform: skew(-50deg, 30deg);
+                transition-delay: 2s;
+            }
+        }
+        &:hover .before{
+            top: -10%;
+            left: -8%;
+            cursor: pointer;
+        }
+        &:hover .up{
+            background: url("../img/twitter_w.png");
+            background-size: cover;
+            transform: scale(1.1);
+        }
+       
+    }
+    .box_3{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        border-radius: 25%;
+        overflow: hidden;
+        z-index: 1;
+        .up{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            background: url("../img/google.png");
+            background-size: cover;
+        }
+        .after{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        .before{
+            position: absolute;
+            top: 75%;
+            left: -100%;
+            content: '';
+            width: 130px;
+            height: 130px;
+            background-color: #FB5252;
+            transform: skew(45deg, -30deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: 0.2s;
+            img{
+                width: 30%;
+                transform: skew(-50deg, 30deg);
+                transition-delay: 2s;
+            }
+        }
+        &:hover .before{
+            top: -10%;
+            left: -8%;
+            cursor: pointer;
+        }
+        &:hover .up{
+            background: url("../img/google_w.png");
+            background-size: cover;
+            transform: scale(1.1);
+        }
+       
+    }
+    .box_4{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        border-radius: 25%;
+        overflow: hidden;
+        z-index: 1;
+        .up{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            background: url("../img/dribble.png");
+            background-size: cover;
+        }
+        .after{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        .before{
+            position: absolute;
+            top: 75%;
+            left: -100%;
+            content: '';
+            width: 130px;
+            height: 130px;
+            background-color: #A054AC;
+            transform: skew(45deg, -30deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: 0.2s;
+            img{
+                width: 30%;
+                transform: skew(-50deg, 30deg);
+                transition-delay: 2s;
+            }
+        }
+        &:hover .before{
+            top: -10%;
+            left: -8%;
+            cursor: pointer;
+        }
+        &:hover .up{
+            background: url("../img/dribble_w.png");
+            background-size: cover;
+            transform: scale(1.1);
+        }
+       
+    }
+    .box_5{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        border-radius: 25%;
+        overflow: hidden;
+        z-index: 1;
+        .up{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            background: url("../img/scype.png");
+            background-size: cover;
+        }
+        .after{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        .before{
+            position: absolute;
+            top: 75%;
+            left: -100%;
+            content: '';
+            width: 130px;
+            height: 130px;
+            background-color: #03A9F4;
+            transform: skew(45deg, -30deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: 0.2s;
+            img{
+                width: 30%;
+                transform: skew(-50deg, 30deg);
+                transition-delay: 2s;
+            }
+        }
+        &:hover .before{
+            top: -10%;
+            left: -8%;
+            cursor: pointer;
+        }
+        &:hover .up{
+            background: url("../img/scype_2.png");
+            background-size: cover;
+            transform: scale(1.1);
+        }
+       
+    }
+}
+
+
